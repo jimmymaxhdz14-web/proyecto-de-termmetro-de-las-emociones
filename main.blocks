@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_gesture_event" id="H;lDn8=tJkFLXX5_Jq/]" x="221" y="-464"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="H]e$4J`j:m2SDR^#h7!e"><field name="LEDS">`
+        . # . # . 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="music_playable_play_default_bkg" id=")2EuXw6]H`{zGy2TG+ym"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id=";Gb%zySp[?m/si?A-6JE"><field name="melody">Melodies.Ode</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="d-qT%~#h%+*@ft`Wh$aC" x="704" y="-46"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="device_show_leds" id="#kI%^+ND*r%1:J~),)y]"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        # . . . # 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="music_playable_play_default_bkg" id="[SNxDYKHt8LhQo]W*JjD"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="Wi$8mdMq:#Zl6$4-o!;/"><field name="melody">Melodies.Baddy</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id=":pwQx^m]/SL+!!Qrh5o5" x="0" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="I~!wTYkB[)Q5kY2f/.^I"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="music_playable_play_default_bkg" id="!2szf5#rPL5[Psr,9~VN"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="ZY-@K828V;RIY+JCV$)9"><field name="melody">Melodies.Dadadadum</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="?c^n(){Ix-FkR?en8f~n" x="-197" y="551"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="Nbz|ab|s5~w9M8NWMIZV"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="music_playable_play_default_bkg" id=".Bkpg[nD,GMB*bZ~S|7+"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="d=*#DkG3bjIWd*or@Da0"><field name="melody">Melodies.Prelude</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="[p+x^(F0}_KPYGgN766i" x="848" y="639"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="basic_show_icon" id="GW52r%|_6$M4=0e6J!?!"><field name="i">IconNames.Angry</field><next><block type="music_playable_play_default_bkg" id="!,)B.9eJZ[K,:G0et/yW"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="~V)zDdJxlH.E+gmo.y;m"><field name="melody">Melodies.Dadadadum</field></shadow><block type="device_builtin_melody_playable" id="6w,k{`PT2st5_ukb*)Pf"><field name="melody">Melodies.Funeral</field></block></value></block></next></block></statement></block><block type="device_button_event" id="Ck=D?sAGaq*QPmE+Y=Fd" x="316" y="1145"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="!FD.$XOX)c{yx;LMA?}j"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="music_playable_play_default_bkg" id="cFfh2]5,qZ1ASDap2~Cr"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="pyTml8[JA;mPlA,2oF_6"><field name="melody">Melodies.Entertainer</field></shadow></value></block></next></block></statement></block></xml>
